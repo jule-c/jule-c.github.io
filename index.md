@@ -26,22 +26,22 @@ Feel free to reach out if you'd like to collaborate or discuss research!
 ### 2025
 
 <div class="publication">
-<img src="/assets/images/ipa.png" alt="IPA" class="pub-image">
-<div class="pub-content">
-<strong><a href="https://doi.org/10.1101/2025.09.24.678379">It's Not Always Crystal Clear: In-Pocket Analysis for Understanding Binding Site Microenvironment Properties</a></strong><br>
-F. Menezes, T. Fröhlich, L. C. Schofield, <em>J. Cremer</em>, J. Agirre, R. P. Joosten, R. Bourgeas, S. Sung, J. A. Marquez, G. Murshudov, O. Plettenburg, M. Sattler, G. M. Popowicz<br>
-<span class="venue">bioRxiv 2025.09.24.678379, 2025</span><br>
-<a href="https://doi.org/10.1101/2025.09.24.678379" class="btn btn--primary btn--small">Paper</a>
-</div>
-</div>
-
-<div class="publication">
 <img src="/assets/images/flowr_root.png" alt="FLOWR.root" class="pub-image">
 <div class="pub-content">
 <strong><a href="https://arxiv.org/abs/2510.02578">FLOWR.root: A Flow Matching Based Foundation Model for Joint Multi-Purpose Structure-Aware 3D Ligand Generation and Affinity Prediction</a></strong><br>
 <em>J. Cremer</em>, T. Le, M. M. Ghahremanpour, E. Sługocka, F. Menezes, D.-A. Clevert<br>
 <span class="venue">arXiv preprint arXiv:2510.02578, 2025</span><br>
 <a href="https://arxiv.org/abs/2510.02578" class="btn btn--primary btn--small">Paper</a>
+</div>
+</div>
+
+<div class="publication">
+<img src="/assets/images/ipa.png" alt="IPA" class="pub-image">
+<div class="pub-content">
+<strong><a href="https://doi.org/10.1101/2025.09.24.678379">It's Not Always Crystal Clear: In-Pocket Analysis for Understanding Binding Site Microenvironment Properties</a></strong><br>
+F. Menezes, T. Fröhlich, L. C. Schofield, <em>J. Cremer</em>, J. Agirre, R. P. Joosten, R. Bourgeas, S. Sung, J. A. Marquez, G. Murshudov, O. Plettenburg, M. Sattler, G. M. Popowicz<br>
+<span class="venue">bioRxiv 2025.09.24.678379, 2025</span><br>
+<a href="https://doi.org/10.1101/2025.09.24.678379" class="btn btn--primary btn--small">Paper</a>
 </div>
 </div>
 
@@ -104,10 +104,10 @@ T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
 <div class="publication">
 <img src="/assets/images/qtm.png" alt="Nanorings" class="pub-image">
 <div class="pub-content">
-<strong><a href="https://doi.org/10.1088/1367-2630/aba11a">Polarization Control of Radiation and Energy Flow in Dipole-Coupled Nanorings</a></strong><br>
+<strong><a href="https://doi.org/10.1088/1367-2630/aba4d4">Polarization Control of Radiation and Energy Flow in Dipole-Coupled Nanorings</a></strong><br>
 <em>J. Cremer</em>, D. Plankensteiner, M. Moreno-Cardoner, L. Ostermann, H. Ritsch<br>
 <span class="venue">New Journal of Physics, 22(8), 083052, 2020</span><br>
-<a href="https://doi.org/10.1088/1367-2630/aba11a" class="btn btn--primary btn--small">Paper</a>
+<a href="https://doi.org/10.1088/1367-2630/aba4d4" class="btn btn--primary btn--small">Paper</a>
 </div>
 </div>
 
@@ -136,7 +136,7 @@ T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
 }
 
 .pub-image {
-  width: 180px;
+  width: 200px;
   height: auto;
   flex-shrink: 0;
   border-radius: 4px;
