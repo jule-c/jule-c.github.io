@@ -132,11 +132,11 @@ T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
   border-left: 4px solid #494e52;
   display: flex;
   align-items: flex-start;
-  gap: 1em;
+  gap: 1.2em;
 }
 
 .pub-image {
-  width: 120px;
+  width: 180px;
   height: auto;
   flex-shrink: 0;
   border-radius: 4px;
@@ -145,10 +145,12 @@ T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
 
 .pub-content {
   flex: 1;
+  font-size: 0.92em;
+  line-height: 1.5;
 }
 
 .publication strong {
-  font-size: 1.05em;
+  font-size: 1em;
 }
 
 .publication strong a {
@@ -163,7 +165,7 @@ T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
 
 .venue {
   color: #666;
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 
 .btn--small {
@@ -180,7 +182,7 @@ T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
   }
   .pub-image {
     width: 100%;
-    max-width: 200px;
+    max-width: 250px;
   }
 }
 </style>
