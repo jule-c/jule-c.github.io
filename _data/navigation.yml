@@ -1,0 +1,6 @@
+# Main navigation links shown in the header
+main:
+  - title: "Publications"
+    url: https://scholar.google.com/citations?user=nxMxFvMAAAAJ&hl=de
+  - title: "Blog"
+    url: /blog/

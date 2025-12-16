@@ -1,0 +1,94 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale: "en-US"
+title: "Julian Cremer"
+title_separator: "|"
+subtitle: "AI for Drug Discovery & Science"
+name: "Julian Cremer"
+description: "Personal website of Julian Cremer - Senior Machine Learning Scientist at Pfizer, working on AI for Drug Discovery and generative chemistry."
+url: "https://jule-c.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "jule-c/jule-c.github.io"
+
+# Site Author
+author:
+  name: "Julian Cremer"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Senior Machine Learning Scientist at Pfizer working on AI for Drug Discovery and AI for Science."
+  location: "Berlin, Germany"
+  email: "jn.cremer@icloud.com"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=nxMxFvMAAAAJ&hl=de"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/julian-cremer-8b738219b"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0001-6319-7283"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jule-c"
+
+# Reading Files
+include:
+  - _pages
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /blog/page:num/
+timezone: Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
