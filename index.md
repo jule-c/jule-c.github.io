@@ -78,7 +78,7 @@ T. Le, <em>J. Cremer</em>, D.-A. Clevert et al.<br>
 </div>
 
 <div class="publication">
-<img src="/assets/images/eqat_diff.png" alt="Equivariant Diffusion" class="pub-image">
+<img src="/assets/images/eqgat_diff.png" alt="Equivariant Diffusion" class="pub-image">
 <div class="pub-content">
 <strong><a href="https://arxiv.org/abs/2309.17296">Navigating the Design Space of Equivariant Diffusion-Based Generative Models for De Novo 3D Molecule Generation</a></strong><br>
 T. Le, <em>J. Cremer</em>, F. Noé, D.-A. Clevert, K. Schütt<br>
