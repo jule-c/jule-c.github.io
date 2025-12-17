@@ -10,7 +10,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Julian Cremer"
+title: "About"
 title_separator: "|"
 name: "Julian Cremer"
 description: "Personal website of Julian Cremer - Senior Machine Learning Scientist at Pfizer, working on AI for Drug Discovery and generative chemistry."

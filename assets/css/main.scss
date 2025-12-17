@@ -1,18 +1,35 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- @charset "utf-8";
-
+/* Main SCSS file for Minimal Mistakes Jekyll theme customization */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Full width for blog pages without sidebar */
-.layout--home,
-.layout--single {
-    .page {
-        float: none;
-        width: 100%;
-    }
+/* Full width for blog pages and posts without sidebar */
+.layout--home .page,
+.layout--single .page,
+.layout--archive .page {
+    float: none !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+}
+
+.layout--home #main,
+.layout--single #main,
+.layout--archive #main {
+    max-width: 100% !important;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.layout--home .page__content,
+.layout--single .page__content,
+.layout--archive .page__content {
+    max-width: 100% !important;
 }
 
 /* Ensure archive items use full width */
 .archive {
-    width: 100%;
+    width: 100% !important;
+}
+
+.entries-list {
+    width: 100% !important;
 }
